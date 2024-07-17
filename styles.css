@@ -4,6 +4,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
   }
   
   header {
@@ -20,6 +22,9 @@ body {
   section {
     padding: 2em;
     margin: 1em 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   #mission {
@@ -35,6 +40,7 @@ body {
     background: #e2e2e2;
     margin: 0.5em 0;
     padding: 0.5em;
+    border-radius: 4px;
   }
   
   footer {
@@ -46,5 +52,6 @@ body {
     width: 100%;
     bottom: 0;
   }
+  
   
   
