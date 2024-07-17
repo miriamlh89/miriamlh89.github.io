@@ -4,53 +4,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Energy Masters Pro</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="Asset 2.png" alt="Energy Masters Pro Logo" class="logo">
-    <h1>Energy Masters Pro</h1>
-    <p>Empowering Lebanon's Future, Energizing Change Today</p>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Energy Masters Pro</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero-section">
+    <div class="overlay"></div>
+    <div class="container text-center hero-content">
+      <img src="IMG-20240717-WA0041-removebg-preview.png" alt="Energy Masters Pro Logo" class="logo">
+      <h1>Energy Masters Pro</h1>
+      <p>Empowering Lebanon's Future, Energizing Change Today</p>
+    </div>
   </header>
 
-  <section id="mission">
-    <h2>Our Mission</h2>
-    <p>At Energy Masters Pro, our mission is to provide the best and most professional renewable energy solutions...</p>
+  <section id="mission" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>At Energy Masters Pro, our mission is to provide the best and most professional renewable energy solutions. We are committed to making a positive impact on the environment by promoting the widespread adoption of renewable energy sources. Our goal is to create a sustainable future by offering innovative and customized plans that cater to the unique needs of each client. We strive to exceed customer expectations through our dedication to professionalism, expertise, and quality workmanship. Integrity, transparency, and customer satisfaction are at the core of our values. We aim to raise the standards of the industry, ensuring that customers are protected from scams and unprofessional installations. By delivering exceptional service, educating our clients, and promoting energy efficiency, we aspire to contribute to the growth and development of the renewable energy sector in Lebanon.</p>
+    </div>
   </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Renewable energy installation and consultation</li>
-      <li>Electrical systems installation and maintenance</li>
-      <li>Consultancy sessions in renewable energy and electrical systems</li>
-      <li>Educational materials related to renewable energy</li>
-      <li>Home automation systems installation</li>
-    </ul>
+  <section id="services" class="py-5 text-center">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul class="list-unstyled">
+        <li>Renewable energy installation and consultation</li>
+        <li>Electrical systems installation and maintenance</li>
+        <li>Consultancy sessions in renewable energy and electrical systems</li>
+        <li>Educational materials related to renewable energy</li>
+        <li>Home automation systems installation</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="portfolio">
-    <h2>Our Portfolio</h2>
-    <p>Showcase of our past projects...</p>
+  <section id="portfolio" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2>Our Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="JHCRFZTUPLG6WY4PWXIPJWJBIA.jpg" class="img-fluid" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Installation of solar panels in an urban area.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="dahua-slide-1.jpg" class="img-fluid" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Security camera installation in a community center.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="1656901371834.jpeg" class="img-fluid" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>Solar inverter and battery installation.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="testimonials">
-    <h2>Testimonials</h2>
-    <p>Client testimonials and reviews...</p>
+  <section id="testimonials" class="py-5 text-center">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p class="mb-0">Energy Masters Pro provided excellent service and helped us reduce our energy costs significantly.</p>
+            <footer class="blockquote-footer">Miriam L.</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p class="mb-0">Their expertise in renewable energy solutions is unmatched. Highly recommend!</p>
+            <footer class="blockquote-footer">Dani M.</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p class="mb-0">Professional and reliable service. Energy Masters Pro exceeded our expectations.</p>
+            <footer class="blockquote-footer">Bassam K.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Phone: 71258054</p>
-    <p>Email: info@energymasterspro.com</p>
-    <p>Address: All Lebanon</p>
+  <section id="contact" class="py-5 text-center bg-light">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Phone: +96171258054</p>
+      <p>Email: info@energymasterspro.com</p>
+      <p>Address: Lebanon</p>
+    </div>
   </section>
 
-  <footer>
+  <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2024 Energy Masters Pro. All rights reserved.</p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
